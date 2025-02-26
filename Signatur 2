@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Signatur</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .signature-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: stretch;
+            width: 60%;
+        }
+        .signature-text {
+            padding: 20px;
+            text-align: left;
+            line-height: 1.6;
+            flex: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .signature-image {
+            padding: 20px;
+            flex: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .divider {
+            width: 2px;
+            background-color: #000;
+            align-self: stretch;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="signature-container">
+        <div class="signature-text">
+            <p><strong>Johnny Wernstrøm</strong></p>
+            <p>Tlf.: 22228070</p>
+            <p>C. F. Møllersalle 2D, 6 tv</p>
+            <p>2300 København S</p>
+        </div>
+        <div class="divider"></div>
+        <div class="signature-image">
+            <img src="https://22228070.dk/wp-content/uploads/2023/09/Comp_3.gif" alt="Min Signatur">
+        </div>
+    </div>
+</body>
+</html>
